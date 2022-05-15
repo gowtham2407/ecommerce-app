@@ -16,7 +16,8 @@ public class ProductBean {
 	String productDesc;
 	HashMap<String, String> specsMap;
 	
-	public ProductBean() {}
+	public ProductBean() {
+	}
 	
 	public ProductBean(String productName, String brandName, int updatedQuantity, String sellerMobile, int price,
 			int discount, int inventoryId, String category, String productDesc, HashMap<String, String> specsMap) {
